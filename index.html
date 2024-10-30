@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shareable Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Shareable Resume Builder By Asma Zahid</h1>
+<form id="resumeForm">
+    <fieldset>
+        <legend>Personal Informaion</legend>
+
+        <label for="username">Username: </label><br>
+        <input type="text" id="username" name="username" required>
+
+        <label for="name">Name: </label><br>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" required>
+    </fieldset>
+
+    <fieldset>
+        <legend>Education</legend>
+        <label for="education">Education</label>
+        <textarea id="education" name="education" raws="4" required></textarea><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Experience</legend>
+    <label for="experience">Experience</label>
+    <textarea name="experience" id="experience" rows="4"></textarea>
+</fieldset>
+
+<fieldset>
+    <legend>Skills</legend>
+    <label for="Skills">Skills</label>
+    <textarea name="skills" id="skills" raws="4" required></textarea>
+</fieldset><br>
+<button type="submit">Generate Resume</button>
+</form>
+<br>
+    <!-- Dynamic And Editable Resume -->
+<div id="rusume" contenteditable="true">
+    <!-- Resume will be generated -->
+</div>
+<br>
+
+<!-- section for shareable link download option -->
+ <div id="shareable-link-container" style="display: none;">
+    <h2>Shareable Link</h2>
+    <p>Here Is Your Uniqe Link To view Or Edit Your Resume</p>
+    <a href="#" id="shareable-link" target="_blank"></a>
+    <br>
+    <button id="download-pdf"><b>Download as PDF</b></button>
+ </div>
+
+<script src="script.js">
+
+</script>
+</body>
+</html>

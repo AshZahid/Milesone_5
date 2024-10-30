@@ -1,0 +1,75 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    padding:0;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(247, 250, 253);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset{
+    border: 2px solid rgb(95, 95, 136);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend{
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
+
+label{
+    display: block;
+}
+
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(141, 189, 173);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
+button:hover{
+    background-color: antiquewhite;
+    color: rgb(50, 153, 119);
+    transition: 2s;
+}
+#resume{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border:2px solid rgb(95, 95, 136);
+    background-color: rgb(247, 250, 253);;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    outline: none;
+    
+}
+#resume h2{
+    color: #2c3e50;
+}
